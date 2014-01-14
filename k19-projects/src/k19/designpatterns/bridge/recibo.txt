@@ -1,0 +1,4 @@
+Recibo: 
+Empresa: Padaria do Joaquim
+Cliente:Joaquim
+Valor:1000.0

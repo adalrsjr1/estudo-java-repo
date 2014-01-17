@@ -18,4 +18,14 @@ public class Taximetro
 	{
 		return this.bandeira.calculaValorDaCorrida( tempo, distancia );
 	}
+	
+	public Taximetro clone()
+	{
+		return new Taximetro(this.bandeira);
+	}
+	
+	public String toString()
+	{
+		return bandeira.toString();
+	}
 }

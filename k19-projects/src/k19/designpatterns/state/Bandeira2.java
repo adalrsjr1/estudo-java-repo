@@ -9,4 +9,9 @@ public class Bandeira2 implements Bandeira
 		return 10.0 + tempo * 3.0 + distancia * 4.0;
 	}
 
+	
+	public String toString()
+	{
+		return "Bandeira2";
+	}
 }
